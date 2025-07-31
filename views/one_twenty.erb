@@ -1,9 +1,9 @@
 <h1> 1d20</h1>
 
-<% if @num1 == 1 %>
-  <p style="color: red"><%= @outcome %></p>
-<% elsif @num1 == 20 %>
-  <p style="color: green"><%= @outcome %></p>
-<% else %>
-    <p><%= @outcome %></p>
-<% end %>
+<ul>
+   
+  <li>
+    <%= @rolls %>
+  </li>
+ 
+</ul>
